@@ -1,8 +1,8 @@
 # ABI reference
 
-Generated from the successfully compiled primary contract. Includes inherited OpenZeppelin methods. Authorization requirements and economic semantics are in the Solidity source and architecture guide.
+Generated from the successfully compiled primary contract. Includes inherited methods. Authorization and economic semantics are documented in the source.
 
-| Signature | Type | Mutability | Return values |
+| Signature | Type | Mutability | Returns |
 |---|---|---|---|
 | `constructor(address asset0,address asset1,uint16 fee,address admin)` | constructor | nonpayable |  |
 | `ERC20InsufficientAllowance(address spender,uint256 allowance,uint256 needed)` | error |  |  |
