@@ -1,0 +1,13 @@
+{
+  "name": "solidity-constant-product-exchange",
+  "title": "Constant-product token exchange",
+  "contract": "ProductPool",
+  "description": "Two-asset ERC20 AMM with LP shares, proportional liquidity, fee-retaining swaps and slippage bounds.",
+  "args": [
+    "$TOKEN",
+    "$REWARD_TOKEN",
+    30,
+    "$ADMIN"
+  ],
+  "assumptions": "One constant-product pool, no router or protocol fee. Permanently locked minimum LP shares. Deadline protection is left to the transaction sender; min-output/min-shares bounds handle execution price limits. Standard non-rebasing tokens only; direct donations alter reserves at the next operation."
+}
